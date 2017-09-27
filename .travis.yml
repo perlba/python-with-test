@@ -4,3 +4,8 @@ python:
         -nightly
 script:
         -pytest
+  ations:
+  slack:
+  on_success: alwaysnotifications:
+  slack:
+  on_success: always
